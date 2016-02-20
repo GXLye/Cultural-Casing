@@ -27,21 +27,37 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KLCC" translatesAutoresizingMaskIntoConstraints="NO" id="xfG-lp-cye">
                                 <rect key="frame" x="0.0" y="28" width="1024" height="758"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cultural Casing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Iu-7b-n1t">
+                                <rect key="frame" x="37" y="35" width="159" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kuala Lumpur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWf-0y-F2V">
+                                <rect key="frame" x="37" y="64" width="230" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KrB-Bi-O9e" secondAttribute="bottom" id="0ep-hM-u4B"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6wc-3d-U72" secondAttribute="bottom" id="1BK-5Z-cJB"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="SWf-0y-F2V" secondAttribute="leading" constant="-17" id="4Nk-uY-qPH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xfG-lp-cye" secondAttribute="bottom" constant="-18" id="5IS-be-syC"/>
                             <constraint firstItem="6wc-3d-U72" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="6mx-kT-e5s"/>
                             <constraint firstItem="xfG-lp-cye" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ONa-l2-cD4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KrB-Bi-O9e" secondAttribute="trailing" constant="-20" id="OfV-v3-pYr"/>
                             <constraint firstItem="6wc-3d-U72" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="QdA-xR-Qnw"/>
+                            <constraint firstItem="SWf-0y-F2V" firstAttribute="top" secondItem="3Iu-7b-n1t" secondAttribute="bottom" id="fPX-h6-DYZ"/>
                             <constraint firstItem="KrB-Bi-O9e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="gqY-QX-rFd"/>
                             <constraint firstItem="KrB-Bi-O9e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="hCT-Jj-Yao"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6wc-3d-U72" secondAttribute="trailing" constant="-20" id="kaU-TH-rpu"/>
+                            <constraint firstItem="3Iu-7b-n1t" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="kmK-yE-DJL"/>
                             <constraint firstItem="xfG-lp-cye" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="lpE-b6-BNr"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xfG-lp-cye" secondAttribute="trailing" constant="-20" id="nP3-cA-wxd"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="3Iu-7b-n1t" secondAttribute="leading" constant="-17" id="spn-So-1Br"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>

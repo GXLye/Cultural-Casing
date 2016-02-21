@@ -46,6 +46,7 @@
 		8429C0391C78E040000A67C3 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C0381C78E040000A67C3 /* SecondaryViewController.swift */; };
 		8429C03B1C78F301000A67C3 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C03A1C78F301000A67C3 /* ColorViewController.swift */; };
 		8429C03D1C794A03000A67C3 /* EngraveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C03C1C794A03000A67C3 /* EngraveViewController.swift */; };
+		8429C03F1C7966D3000A67C3 /* PrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C03E1C7966D3000A67C3 /* PrintViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		8429C0381C78E040000A67C3 /* SecondaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
 		8429C03A1C78F301000A67C3 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		8429C03C1C794A03000A67C3 /* EngraveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngraveViewController.swift; sourceTree = "<group>"; };
+		8429C03E1C7966D3000A67C3 /* PrintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				8429C0381C78E040000A67C3 /* SecondaryViewController.swift */,
 				8429C03A1C78F301000A67C3 /* ColorViewController.swift */,
 				8429BFD21C789C92000A67C3 /* Main.storyboard */,
+				8429C03E1C7966D3000A67C3 /* PrintViewController.swift */,
 				8429C03C1C794A03000A67C3 /* EngraveViewController.swift */,
 				8429BFD51C789C92000A67C3 /* Assets.xcassets */,
 				8429BFD71C789C92000A67C3 /* LaunchScreen.storyboard */,
@@ -375,6 +378,7 @@
 				8429C0331C78C9A6000A67C3 /* SpringTextView.swift in Sources */,
 				8429BFCF1C789C92000A67C3 /* AppDelegate.swift in Sources */,
 				8429C0251C78C9A6000A67C3 /* DesignableView.swift in Sources */,
+				8429C03F1C7966D3000A67C3 /* PrintViewController.swift in Sources */,
 				8429C02E1C78C9A6000A67C3 /* SpringAnimation.swift in Sources */,
 				8429C02D1C78C9A6000A67C3 /* Spring.swift in Sources */,
 				8429C0291C78C9A6000A67C3 /* LoadingView.swift in Sources */,

@@ -21,7 +21,7 @@ class SecondaryViewController: UIViewController {
     @IBOutlet weak var secondLabel: SpringLabel!
     @IBOutlet weak var thirdLabel: SpringLabel!
     
-    @IBOutlet weak var roundedButton: UIButton!
+    @IBOutlet weak var roundedButton: SpringButton!
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
@@ -66,7 +66,7 @@ class SecondaryViewController: UIViewController {
             thirdImage.delay = 0.8
         }
         
-        UIView.animateWithDuration(1.8, animations: {
+        UIView.animateWithDuration(0.5, animations: {
             
             self.firstImage.animate()
             self.secondImage.animate()
@@ -76,10 +76,10 @@ class SecondaryViewController: UIViewController {
             self.secondLabel.alpha = 0
             self.thirdLabel.alpha = 0
             
-            self.stepLabel.text = "Step 2"
-            self.titleLabel.text = "Color"
+            self.stepLabel.alpha = 0
+            self.titleLabel.alpha = 0
             
-            self.roundedButton.setTitle("", forState: .Normal)
+            self.roundedButton.alpha = 0
             }, completion: { finished in
                 self.performSegueWithIdentifier("shapeToColor", sender: self)
         })

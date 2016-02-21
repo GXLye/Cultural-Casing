@@ -15,8 +15,19 @@ class EngraveViewController: UIViewController {
     @IBOutlet weak var firstLineView: UIView!
     @IBOutlet weak var secondLineView: UIView!
     
+    @IBOutlet weak var firstTextView: UITextField!
+    @IBOutlet weak var secondTextView: UITextField!
+    
+    @IBOutlet weak var stepLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var suggestionLabel: UILabel!
+    @IBOutlet weak var suggestionLabel2: UILabel!
+    
     @IBOutlet weak var firstBottomContraint: NSLayoutConstraint!
     @IBOutlet weak var secondBottomContraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var coverBottomConstrait: NSLayoutConstraint!
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
@@ -52,16 +63,18 @@ class EngraveViewController: UIViewController {
         var info = notification.userInfo!
         let keyboardFrame: CGRect = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).CGRectValue()
         
-        UIView.animateWithDuration(0.5, animations: { () -> Void in
+        UIView.animateWithDuration(1, animations: { () -> Void in
             self.firstBottomContraint.constant = keyboardFrame.size.height + 200
             self.secondBottomContraint.constant = keyboardFrame.size.height + 100
+            self.coverBottomConstrait.constant = keyboardFrame.size.height - 20
         })
     }
     
     func keyboardWillHide(notification: NSNotification) {
-        UIView.animateWithDuration(0.5, animations: { () -> Void in
+        UIView.animateWithDuration(1, animations: { () -> Void in
             self.firstBottomContraint.constant = 248
             self.secondBottomContraint.constant = 148
+            self.coverBottomConstrait.constant = 0
         })
     }
 
@@ -70,6 +83,24 @@ class EngraveViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func printButton(sender: AnyObject) {
+        
+        
+        UIView.animateWithDuration(0.5, animations: {
+            
+            self.firstLineView.alpha = 0
+            self.secondLineView.alpha = 0
+            self.firstTextView.alpha = 0
+            self.secondLineView.alpha = 0
+            
+            self.stepLabel.alpha = 0
+            self.titleLabel.alpha = 0
+            
+            self.roundedButton.alpha = 0
+            }, completion: { finished in
+                self.performSegueWithIdentifier("engraveToPrint", sender: self)
+        })
+    }
 
     /*
     // MARK: - Navigation

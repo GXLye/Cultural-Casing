@@ -43,6 +43,9 @@
 		8429C0351C78C9A6000A67C3 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C0181C78C9A6000A67C3 /* TransitionManager.swift */; };
 		8429C0361C78C9A6000A67C3 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C0191C78C9A6000A67C3 /* TransitionZoom.swift */; };
 		8429C0371C78C9A6000A67C3 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C01A1C78C9A6000A67C3 /* UnwindSegue.swift */; };
+		8429C0391C78E040000A67C3 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C0381C78E040000A67C3 /* SecondaryViewController.swift */; };
+		8429C03B1C78F301000A67C3 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C03A1C78F301000A67C3 /* ColorViewController.swift */; };
+		8429C03D1C794A03000A67C3 /* EngraveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C03C1C794A03000A67C3 /* EngraveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +109,9 @@
 		8429C0181C78C9A6000A67C3 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		8429C0191C78C9A6000A67C3 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		8429C01A1C78C9A6000A67C3 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		8429C0381C78E040000A67C3 /* SecondaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		8429C03A1C78F301000A67C3 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		8429C03C1C794A03000A67C3 /* EngraveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngraveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +165,10 @@
 				8429BFFC1C78C9A6000A67C3 /* Spring */,
 				8429BFCE1C789C92000A67C3 /* AppDelegate.swift */,
 				8429BFD01C789C92000A67C3 /* ViewController.swift */,
+				8429C0381C78E040000A67C3 /* SecondaryViewController.swift */,
+				8429C03A1C78F301000A67C3 /* ColorViewController.swift */,
 				8429BFD21C789C92000A67C3 /* Main.storyboard */,
+				8429C03C1C794A03000A67C3 /* EngraveViewController.swift */,
 				8429BFD51C789C92000A67C3 /* Assets.xcassets */,
 				8429BFD71C789C92000A67C3 /* LaunchScreen.storyboard */,
 				8429BFDA1C789C92000A67C3 /* Info.plist */,
@@ -383,8 +392,11 @@
 				8429C0371C78C9A6000A67C3 /* UnwindSegue.swift in Sources */,
 				8429C0351C78C9A6000A67C3 /* TransitionManager.swift in Sources */,
 				8429C01E1C78C9A6000A67C3 /* BlurView.swift in Sources */,
+				8429C03B1C78F301000A67C3 /* ColorViewController.swift in Sources */,
 				8429C0341C78C9A6000A67C3 /* SpringView.swift in Sources */,
+				8429C03D1C794A03000A67C3 /* EngraveViewController.swift in Sources */,
 				8429C0361C78C9A6000A67C3 /* TransitionZoom.swift in Sources */,
+				8429C0391C78E040000A67C3 /* SecondaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

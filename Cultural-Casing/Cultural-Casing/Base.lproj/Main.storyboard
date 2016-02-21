@@ -27,6 +27,48 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KLCC" translatesAutoresizingMaskIntoConstraints="NO" id="xfG-lp-cye">
                                 <rect key="frame" x="0.0" y="28" width="1024" height="758"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fruits" translatesAutoresizingMaskIntoConstraints="NO" id="0by-Ld-lRW" customClass="SpringImageView" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="37" y="410" width="337" height="343"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeInRight"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Landmarks" translatesAutoresizingMaskIntoConstraints="NO" id="NkH-5v-Pkp" customClass="SpringImageView" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="365" y="320" width="337" height="419"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeInUp"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cuisines" translatesAutoresizingMaskIntoConstraints="NO" id="Irz-yk-Zmr" customClass="SpringImageView" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="687" y="349" width="337" height="419"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.59999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeInLeft"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nG2-iC-aAq">
+                                <rect key="frame" x="37" y="320" width="65" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shape" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTO-2n-eSC">
+                                <rect key="frame" x="37" y="349" width="107" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cultural Casing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Iu-7b-n1t">
                                 <rect key="frame" x="37" y="35" width="159" height="29"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
@@ -39,6 +81,51 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Local Fruits" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eeV-CO-5Au" customClass="SpringLabel" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="90" y="705" width="198" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Landmarks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1u-yC-fx6" customClass="SpringLabel" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="437" y="705" width="192" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Local Cuisines" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc2-SQ-D0h" customClass="SpringLabel" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="743" y="705" width="261" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.59999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CD1-dn-VUQ">
+                                <rect key="frame" x="37" y="410" width="337" height="343"/>
+                                <connections>
+                                    <segue destination="AzT-OU-oC8" kind="presentation" animates="NO" modalTransitionStyle="crossDissolve" id="VBz-XC-A4y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -47,9 +134,13 @@
                             <constraint firstAttribute="leadingMargin" secondItem="SWf-0y-F2V" secondAttribute="leading" constant="-17" id="4Nk-uY-qPH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xfG-lp-cye" secondAttribute="bottom" constant="-18" id="5IS-be-syC"/>
                             <constraint firstItem="6wc-3d-U72" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="6mx-kT-e5s"/>
+                            <constraint firstItem="pTO-2n-eSC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="Cze-Nd-cTV"/>
+                            <constraint firstItem="nG2-iC-aAq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="Heo-Ge-qUI"/>
+                            <constraint firstItem="pTO-2n-eSC" firstAttribute="top" secondItem="nG2-iC-aAq" secondAttribute="bottom" id="JEQ-Kr-5dm"/>
                             <constraint firstItem="xfG-lp-cye" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ONa-l2-cD4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KrB-Bi-O9e" secondAttribute="trailing" constant="-20" id="OfV-v3-pYr"/>
                             <constraint firstItem="6wc-3d-U72" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="QdA-xR-Qnw"/>
+                            <constraint firstItem="nG2-iC-aAq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="ZtP-cl-fXC"/>
                             <constraint firstItem="SWf-0y-F2V" firstAttribute="top" secondItem="3Iu-7b-n1t" secondAttribute="bottom" id="fPX-h6-DYZ"/>
                             <constraint firstItem="KrB-Bi-O9e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="gqY-QX-rFd"/>
                             <constraint firstItem="KrB-Bi-O9e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="hCT-Jj-Yao"/>
@@ -62,15 +153,723 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="firstImage" destination="0by-Ld-lRW" id="glo-US-DdG"/>
+                        <outlet property="firstLabel" destination="eeV-CO-5Au" id="jGq-qo-QkU"/>
+                        <outlet property="secondImage" destination="NkH-5v-Pkp" id="zwB-gv-uzo"/>
+                        <outlet property="secondLabel" destination="v1u-yC-fx6" id="s1m-K9-Lng"/>
+                        <outlet property="thirdImage" destination="Irz-yk-Zmr" id="tat-mu-Ymk"/>
+                        <outlet property="thirdLabel" destination="zc2-SQ-D0h" id="v19-ZQ-4CU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="245" y="337"/>
         </scene>
+        <!--Secondary View Controller-->
+        <scene sceneID="zhQ-Ae-LFZ">
+            <objects>
+                <viewController id="AzT-OU-oC8" customClass="SecondaryViewController" customModule="Cultural_Casing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C3D-wM-Uoi"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ytz-H9-7QY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qf8-Dh-i1p">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="QdO-x3-8Pj">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KL Tower" translatesAutoresizingMaskIntoConstraints="NO" id="6U9-O5-EI0">
+                                <rect key="frame" x="0.0" y="28" width="1024" height="740"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KLCC" translatesAutoresizingMaskIntoConstraints="NO" id="HtY-FH-G50">
+                                <rect key="frame" x="0.0" y="28" width="1024" height="758"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z36-GW-EwV" userLabel="Image Button 1">
+                                <rect key="frame" x="37" y="410" width="337" height="343"/>
+                                <connections>
+                                    <action selector="buttonAnimation:" destination="AzT-OU-oC8" eventType="touchDown" id="foD-r3-SKx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFb-yq-R8E" userLabel="Image Button 3">
+                                <rect key="frame" x="687" y="410" width="337" height="343"/>
+                                <connections>
+                                    <action selector="buttonAnimation:" destination="AzT-OU-oC8" eventType="touchDown" id="apL-ns-PDr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dragonfruit" translatesAutoresizingMaskIntoConstraints="NO" id="Py4-tL-SYs" customClass="SpringImageView" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="731" y="349" width="249" height="419"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.59999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeInLeft"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mangosteen" translatesAutoresizingMaskIntoConstraints="NO" id="TZL-Jx-C17" customClass="SpringImageView" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="409" y="378" width="260" height="361"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeInUp"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fruits" translatesAutoresizingMaskIntoConstraints="NO" id="EOH-iG-qnP" customClass="SpringImageView" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="37" y="410" width="337" height="343"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeInRight"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQR-DA-66B">
+                                <rect key="frame" x="37" y="320" width="65" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shape" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gh-ua-M0d">
+                                <rect key="frame" x="37" y="349" width="107" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cultural Casing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2g-23-Bb0">
+                                <rect key="frame" x="37" y="35" width="159" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kuala Lumpur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEi-Fg-2Ka">
+                                <rect key="frame" x="37" y="64" width="230" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Durians" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCc-IB-bsh" customClass="SpringLabel" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="87" y="705" width="198" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mangosteen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6E-Tk-AWM" customClass="SpringLabel" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="437" y="705" width="205" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dragonfruits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaF-rD-atA" customClass="SpringLabel" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="754" y="705" width="202" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.59999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNw-zv-CxL" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="856" y="326" width="100" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="backToMenu:" destination="AzT-OU-oC8" eventType="touchUpInside" id="Syh-Ya-0do"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9E-I2-Tva" userLabel="Image Button 2">
+                                <rect key="frame" x="371" y="405" width="337" height="343"/>
+                                <connections>
+                                    <action selector="buttonAnimation:" destination="AzT-OU-oC8" eventType="touchDown" id="uk3-cz-fvi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="OEi-Fg-2Ka" secondAttribute="leading" constant="-17" id="4Gb-XI-vGj"/>
+                            <constraint firstItem="QdO-x3-8Pj" firstAttribute="leading" secondItem="qf8-Dh-i1p" secondAttribute="leadingMargin" constant="-20" id="4xL-s1-6rJ"/>
+                            <constraint firstItem="5gh-ua-M0d" firstAttribute="top" secondItem="KQR-DA-66B" secondAttribute="bottom" id="82W-Xv-hYh"/>
+                            <constraint firstItem="6U9-O5-EI0" firstAttribute="leading" secondItem="qf8-Dh-i1p" secondAttribute="leadingMargin" constant="-20" id="OBq-XW-vsW"/>
+                            <constraint firstItem="Ytz-H9-7QY" firstAttribute="top" secondItem="HtY-FH-G50" secondAttribute="bottom" constant="-18" id="PAZ-UJ-AQA"/>
+                            <constraint firstItem="HtY-FH-G50" firstAttribute="leading" secondItem="qf8-Dh-i1p" secondAttribute="leadingMargin" constant="-20" id="PWA-Ec-AA4"/>
+                            <constraint firstItem="OEi-Fg-2Ka" firstAttribute="top" secondItem="z2g-23-Bb0" secondAttribute="bottom" id="RlQ-Ec-Xic"/>
+                            <constraint firstItem="KQR-DA-66B" firstAttribute="centerY" secondItem="qf8-Dh-i1p" secondAttribute="centerY" constant="-50" id="Ul6-dw-Kco"/>
+                            <constraint firstItem="KQR-DA-66B" firstAttribute="leading" secondItem="qf8-Dh-i1p" secondAttribute="leadingMargin" constant="17" id="UvL-be-ccW"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="z2g-23-Bb0" secondAttribute="leading" constant="-17" id="WN9-Ix-0Zf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HtY-FH-G50" secondAttribute="trailing" constant="-20" id="aWU-ww-pUW"/>
+                            <constraint firstItem="z2g-23-Bb0" firstAttribute="top" secondItem="C3D-wM-Uoi" secondAttribute="bottom" constant="15" id="cMI-4H-mzg"/>
+                            <constraint firstItem="Ytz-H9-7QY" firstAttribute="top" secondItem="QdO-x3-8Pj" secondAttribute="bottom" id="dYn-em-F1M"/>
+                            <constraint firstItem="5gh-ua-M0d" firstAttribute="leading" secondItem="qf8-Dh-i1p" secondAttribute="leadingMargin" constant="17" id="dam-i3-SIP"/>
+                            <constraint firstItem="HtY-FH-G50" firstAttribute="top" secondItem="C3D-wM-Uoi" secondAttribute="bottom" constant="8" id="fF9-kq-3fK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6U9-O5-EI0" secondAttribute="trailing" constant="-20" id="i6x-ZX-xQk"/>
+                            <constraint firstItem="QdO-x3-8Pj" firstAttribute="top" secondItem="C3D-wM-Uoi" secondAttribute="bottom" constant="-20" id="j3K-Ha-Kyv"/>
+                            <constraint firstItem="Ytz-H9-7QY" firstAttribute="top" secondItem="6U9-O5-EI0" secondAttribute="bottom" id="o6q-gX-Lec"/>
+                            <constraint firstItem="6U9-O5-EI0" firstAttribute="top" secondItem="C3D-wM-Uoi" secondAttribute="bottom" constant="8" id="tpK-xU-4kr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QdO-x3-8Pj" secondAttribute="trailing" constant="-20" id="ynD-RJ-ga2"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="firstImage" destination="EOH-iG-qnP" id="Zv8-wd-Dya"/>
+                        <outlet property="firstLabel" destination="rCc-IB-bsh" id="6X7-6V-XyX"/>
+                        <outlet property="roundedButton" destination="qNw-zv-CxL" id="fuK-WX-pn1"/>
+                        <outlet property="secondImage" destination="TZL-Jx-C17" id="bnd-41-GrM"/>
+                        <outlet property="secondLabel" destination="Z6E-Tk-AWM" id="fgz-LG-WR6"/>
+                        <outlet property="stepLabel" destination="KQR-DA-66B" id="gUb-8e-qw9"/>
+                        <outlet property="thirdImage" destination="Py4-tL-SYs" id="YW9-UX-3LH"/>
+                        <outlet property="thirdLabel" destination="yaF-rD-atA" id="LEL-hE-h8G"/>
+                        <outlet property="titleLabel" destination="5gh-ua-M0d" id="2pa-dK-DQC"/>
+                        <segue destination="fiA-0h-XSY" kind="presentation" identifier="shapeToColor" animates="NO" id="wOc-yC-hUd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AK6-T5-kdU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="1252"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="G4f-C9-nuH">
+            <objects>
+                <viewController storyboardIdentifier="SpashViewController" id="juc-S0-mg4" customClass="ViewController" customModule="Cultural_Casing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E6Y-pJ-MV3"/>
+                        <viewControllerLayoutGuide type="bottom" id="kIa-mB-0qc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fEe-j9-H7z">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="rHs-1B-Xw6">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="KL Tower" translatesAutoresizingMaskIntoConstraints="NO" id="Ty1-IW-hdL" customClass="SpringImageView" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="150" width="1024" height="740"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="y">
+                                        <real key="value" value="150"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="damping">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="velocity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeIn"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="KLCC" translatesAutoresizingMaskIntoConstraints="NO" id="3Ou-GB-y6p" customClass="SpringImageView" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="400" width="1024" height="758"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="y">
+                                        <real key="value" value="400"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="damping">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="velocity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeIn"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Ou-GB-y6p" firstAttribute="leading" secondItem="fEe-j9-H7z" secondAttribute="leadingMargin" constant="-20" id="3N4-vG-ARj"/>
+                            <constraint firstItem="3Ou-GB-y6p" firstAttribute="top" secondItem="E6Y-pJ-MV3" secondAttribute="bottom" constant="8" id="5Gx-yU-bzI"/>
+                            <constraint firstItem="rHs-1B-Xw6" firstAttribute="leading" secondItem="fEe-j9-H7z" secondAttribute="leadingMargin" constant="-20" id="FZy-wy-53g"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ty1-IW-hdL" secondAttribute="trailing" constant="-20" id="Ixp-a6-3lz"/>
+                            <constraint firstItem="kIa-mB-0qc" firstAttribute="top" secondItem="Ty1-IW-hdL" secondAttribute="bottom" id="L3e-8q-U1d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rHs-1B-Xw6" secondAttribute="trailing" constant="-20" id="RHJ-nA-oKk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Ou-GB-y6p" secondAttribute="trailing" constant="-20" id="Sj2-J4-NL3"/>
+                            <constraint firstItem="rHs-1B-Xw6" firstAttribute="top" secondItem="E6Y-pJ-MV3" secondAttribute="bottom" constant="-20" id="YJL-OK-1Qg"/>
+                            <constraint firstItem="Ty1-IW-hdL" firstAttribute="top" secondItem="E6Y-pJ-MV3" secondAttribute="bottom" constant="8" id="YLq-Hg-SdG"/>
+                            <constraint firstItem="kIa-mB-0qc" firstAttribute="top" secondItem="3Ou-GB-y6p" secondAttribute="bottom" constant="-18" id="htc-zA-fa9"/>
+                            <constraint firstItem="Ty1-IW-hdL" firstAttribute="leading" secondItem="fEe-j9-H7z" secondAttribute="leadingMargin" constant="-20" id="r2C-e6-zjf"/>
+                            <constraint firstItem="kIa-mB-0qc" firstAttribute="top" secondItem="rHs-1B-Xw6" secondAttribute="bottom" id="up0-Ka-bZM"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9XZ-vE-AZR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="-507"/>
+        </scene>
+        <!--Color View Controller-->
+        <scene sceneID="8Cx-ZU-Gzj">
+            <objects>
+                <viewController id="fiA-0h-XSY" customClass="ColorViewController" customModule="Cultural_Casing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RlW-EI-DZX"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZPT-Vf-eaD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R4S-TM-HKh">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Vcr-ek-anF">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KL Tower" translatesAutoresizingMaskIntoConstraints="NO" id="OjP-sG-DEl">
+                                <rect key="frame" x="0.0" y="28" width="1024" height="740"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KLCC" translatesAutoresizingMaskIntoConstraints="NO" id="PhF-ZQ-lpj">
+                                <rect key="frame" x="0.0" y="28" width="1024" height="758"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nqj-mH-CkJ" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="856" y="326" width="100" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Ywu-MX-qVi" kind="presentation" animates="NO" id="ACC-Hk-M8a"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87O-4u-O6v">
+                                <rect key="frame" x="37" y="320" width="68" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hfm-wA-WDH">
+                                <rect key="frame" x="37" y="349" width="90" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cultural Casing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Na9-qg-cZo">
+                                <rect key="frame" x="37" y="35" width="159" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kuala Lumpur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTr-B3-5gr">
+                                <rect key="frame" x="37" y="64" width="230" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgv-vl-6oh" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="37" y="416" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.81568627450980391" green="0.0078431372549019607" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="be4-Fz-SAg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qzt-Oi-kof" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="37" y="581" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.74117647058823533" green="0.062745098039215685" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="kxR-1F-KrT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zy6-u0-4rf" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="202" y="416" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="yxX-Lz-D6I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yei-au-C1P" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="202" y="581" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.56470588235294117" green="0.074509803921568626" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="Nqs-cr-973"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0B-dl-Wfh" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="367" y="416" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.90588235294117647" blue="0.10980392156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="7fC-1H-vc2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyU-tW-YZj" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="367" y="581" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.29019607843137252" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="SJ0-3U-4Cb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djw-xx-pVt" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="532" y="416" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.54509803921568623" green="0.3411764705882353" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="j6O-h5-qhS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2D9-FM-b19" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="532" y="581" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.31372549019607843" green="0.8901960784313725" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="8i7-xY-PgV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pE5-pq-WUu" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="697" y="416" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.49411764705882355" green="0.82745098039215681" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="foC-oa-VZx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YmV-Ow-hTc" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="697" y="581" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.72156862745098038" green="0.9137254901960784" blue="0.52549019607843139" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="QIv-yG-5tl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCL-y0-PKH" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="862" y="416" width="125" height="125"/>
+                                <color key="backgroundColor" red="0.25490196078431371" green="0.45882352941176469" blue="0.019607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="hZm-uf-dWy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFg-TK-URy" userLabel="Color" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="862" y="581" width="125" height="125"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.10000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="colorChosen:" destination="fiA-0h-XSY" eventType="touchUpInside" id="o78-Nr-I9x"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PhF-ZQ-lpj" firstAttribute="leading" secondItem="R4S-TM-HKh" secondAttribute="leadingMargin" constant="-20" id="0hg-Lq-cNa"/>
+                            <constraint firstItem="OjP-sG-DEl" firstAttribute="leading" secondItem="R4S-TM-HKh" secondAttribute="leadingMargin" constant="-20" id="4i8-ps-kT9"/>
+                            <constraint firstItem="PhF-ZQ-lpj" firstAttribute="top" secondItem="RlW-EI-DZX" secondAttribute="bottom" constant="8" id="7Hv-PW-VJj"/>
+                            <constraint firstItem="Vcr-ek-anF" firstAttribute="top" secondItem="RlW-EI-DZX" secondAttribute="bottom" constant="-20" id="Cyy-SR-0Gr"/>
+                            <constraint firstItem="87O-4u-O6v" firstAttribute="leading" secondItem="R4S-TM-HKh" secondAttribute="leadingMargin" constant="17" id="Fb6-zL-wgZ"/>
+                            <constraint firstItem="87O-4u-O6v" firstAttribute="centerY" secondItem="R4S-TM-HKh" secondAttribute="centerY" constant="-50" id="Gac-PX-uOV"/>
+                            <constraint firstItem="Hfm-wA-WDH" firstAttribute="top" secondItem="87O-4u-O6v" secondAttribute="bottom" id="IVi-cg-SU2"/>
+                            <constraint firstItem="OjP-sG-DEl" firstAttribute="top" secondItem="RlW-EI-DZX" secondAttribute="bottom" constant="8" id="K5U-7C-47H"/>
+                            <constraint firstItem="ZPT-Vf-eaD" firstAttribute="top" secondItem="PhF-ZQ-lpj" secondAttribute="bottom" constant="-18" id="Pga-ud-uzl"/>
+                            <constraint firstItem="Vcr-ek-anF" firstAttribute="leading" secondItem="R4S-TM-HKh" secondAttribute="leadingMargin" constant="-20" id="TQv-ti-mfG"/>
+                            <constraint firstItem="ZPT-Vf-eaD" firstAttribute="top" secondItem="Vcr-ek-anF" secondAttribute="bottom" id="asV-Zd-nKc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OjP-sG-DEl" secondAttribute="trailing" constant="-20" id="c0x-7i-jtk"/>
+                            <constraint firstItem="Hfm-wA-WDH" firstAttribute="leading" secondItem="R4S-TM-HKh" secondAttribute="leadingMargin" constant="17" id="fuF-F8-Mcg"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Na9-qg-cZo" secondAttribute="leading" constant="-17" id="hBy-Pn-2V7"/>
+                            <constraint firstItem="rTr-B3-5gr" firstAttribute="top" secondItem="Na9-qg-cZo" secondAttribute="bottom" id="lvi-wZ-dht"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PhF-ZQ-lpj" secondAttribute="trailing" constant="-20" id="nB4-1p-bn3"/>
+                            <constraint firstItem="ZPT-Vf-eaD" firstAttribute="top" secondItem="OjP-sG-DEl" secondAttribute="bottom" id="pCP-wI-nmr"/>
+                            <constraint firstItem="Na9-qg-cZo" firstAttribute="top" secondItem="RlW-EI-DZX" secondAttribute="bottom" constant="15" id="rRn-PI-dbS"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="rTr-B3-5gr" secondAttribute="leading" constant="-17" id="z0H-G5-f5y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vcr-ek-anF" secondAttribute="trailing" constant="-20" id="zI0-DC-Zoe"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="roundedButton" destination="nqj-mH-CkJ" id="qcG-3H-wkA"/>
+                        <outletCollection property="roundedColor" destination="Cgv-vl-6oh" collectionClass="NSMutableArray" id="MAo-OX-6Jo"/>
+                        <outletCollection property="roundedColor" destination="zy6-u0-4rf" collectionClass="NSMutableArray" id="qkB-m4-iHe"/>
+                        <outletCollection property="roundedColor" destination="Qzt-Oi-kof" collectionClass="NSMutableArray" id="exE-jS-joC"/>
+                        <outletCollection property="roundedColor" destination="Yei-au-C1P" collectionClass="NSMutableArray" id="rlw-pB-3D4"/>
+                        <outletCollection property="roundedColor" destination="T0B-dl-Wfh" collectionClass="NSMutableArray" id="xxr-Q1-Jc6"/>
+                        <outletCollection property="roundedColor" destination="nyU-tW-YZj" collectionClass="NSMutableArray" id="VKm-1J-M5f"/>
+                        <outletCollection property="roundedColor" destination="Djw-xx-pVt" collectionClass="NSMutableArray" id="x7h-yF-oiO"/>
+                        <outletCollection property="roundedColor" destination="2D9-FM-b19" collectionClass="NSMutableArray" id="jaL-89-9s8"/>
+                        <outletCollection property="roundedColor" destination="pE5-pq-WUu" collectionClass="NSMutableArray" id="3zN-aA-R2c"/>
+                        <outletCollection property="roundedColor" destination="YmV-Ow-hTc" collectionClass="NSMutableArray" id="fNy-hb-e0a"/>
+                        <outletCollection property="roundedColor" destination="aCL-y0-PKH" collectionClass="NSMutableArray" id="Uoq-sh-IjX"/>
+                        <outletCollection property="roundedColor" destination="AFg-TK-URy" collectionClass="NSMutableArray" id="wOj-M9-W9n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fYe-Nc-uQu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1523" y="1252"/>
+        </scene>
+        <!--Engrave View Controller-->
+        <scene sceneID="ocD-Xl-IjQ">
+            <objects>
+                <viewController id="Ywu-MX-qVi" customClass="EngraveViewController" customModule="Cultural_Casing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gaZ-ka-Rha"/>
+                        <viewControllerLayoutGuide type="bottom" id="rxc-ld-vPb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fOG-PZ-RDJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="As7-Gr-zdG">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KL Tower" translatesAutoresizingMaskIntoConstraints="NO" id="aZZ-nj-3xx">
+                                <rect key="frame" x="0.0" y="28" width="1024" height="740"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KLCC" translatesAutoresizingMaskIntoConstraints="NO" id="s8q-CY-YOx">
+                                <rect key="frame" x="0.0" y="28" width="1024" height="758"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6X-hO-4U8" customClass="SpringButton" customModule="Cultural_Casing" customModuleProvider="target">
+                                <rect key="frame" x="856" y="326" width="100" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <state key="normal" title="Print">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="fadeIn"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="delay">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9U-Ew-v86">
+                                <rect key="frame" x="37" y="320" width="68" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Engraving" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayh-E4-Fpy">
+                                <rect key="frame" x="37" y="349" width="167" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cultural Casing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAO-Hu-m47">
+                                <rect key="frame" x="37" y="35" width="159" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kuala Lumpur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9y-2s-JjY">
+                                <rect key="frame" x="37" y="64" width="230" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5iS-nC-zQp">
+                                <rect key="frame" x="37" y="440" width="506" height="80"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter first line here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="63b-ju-ELP">
+                                        <rect key="frame" x="13" y="25" width="480" height="30"/>
+                                        <color key="textColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="506" id="Q2Y-Wg-4iw"/>
+                                    <constraint firstAttribute="height" constant="80" id="UKy-cK-Ke3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMj-zi-kVN">
+                                <rect key="frame" x="37" y="540" width="506" height="80"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter first line here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F3X-wj-7Ae">
+                                        <rect key="frame" x="13" y="25" width="480" height="30"/>
+                                        <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="AYQ-4P-tgd"/>
+                                    <constraint firstAttribute="width" constant="506" id="Bwu-K4-SJL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m9U-Ew-v86" firstAttribute="leading" secondItem="fOG-PZ-RDJ" secondAttribute="leadingMargin" constant="17" id="00m-jv-xkx"/>
+                            <constraint firstItem="rxc-ld-vPb" firstAttribute="top" secondItem="s8q-CY-YOx" secondAttribute="bottom" constant="-18" id="3Fs-No-kgW"/>
+                            <constraint firstItem="Y9y-2s-JjY" firstAttribute="top" secondItem="oAO-Hu-m47" secondAttribute="bottom" id="3wm-NV-6TU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aZZ-nj-3xx" secondAttribute="trailing" constant="-20" id="6Rx-Qx-e0o"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="As7-Gr-zdG" secondAttribute="trailing" constant="-20" id="9jH-RI-Uay"/>
+                            <constraint firstItem="jMj-zi-kVN" firstAttribute="leading" secondItem="fOG-PZ-RDJ" secondAttribute="leadingMargin" constant="17" id="Cuv-Ch-Ga9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s8q-CY-YOx" secondAttribute="trailing" constant="-20" id="FwR-zZ-OKk"/>
+                            <constraint firstItem="5iS-nC-zQp" firstAttribute="leading" secondItem="fOG-PZ-RDJ" secondAttribute="leadingMargin" constant="17" id="HHt-Nd-EPc"/>
+                            <constraint firstItem="ayh-E4-Fpy" firstAttribute="leading" secondItem="fOG-PZ-RDJ" secondAttribute="leadingMargin" constant="17" id="Mfs-9f-R5l"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Y9y-2s-JjY" secondAttribute="leading" constant="-17" id="RwP-CV-lhg"/>
+                            <constraint firstItem="aZZ-nj-3xx" firstAttribute="top" secondItem="gaZ-ka-Rha" secondAttribute="bottom" constant="8" id="STv-rc-qyB"/>
+                            <constraint firstItem="aZZ-nj-3xx" firstAttribute="leading" secondItem="fOG-PZ-RDJ" secondAttribute="leadingMargin" constant="-20" id="U6M-VM-cG8"/>
+                            <constraint firstItem="m9U-Ew-v86" firstAttribute="centerY" secondItem="fOG-PZ-RDJ" secondAttribute="centerY" constant="-50" id="VX3-ue-ii1"/>
+                            <constraint firstItem="rxc-ld-vPb" firstAttribute="top" secondItem="As7-Gr-zdG" secondAttribute="bottom" id="Wn4-wk-cpi"/>
+                            <constraint firstItem="As7-Gr-zdG" firstAttribute="leading" secondItem="fOG-PZ-RDJ" secondAttribute="leadingMargin" constant="-20" id="Xl4-0b-uvH"/>
+                            <constraint firstItem="s8q-CY-YOx" firstAttribute="leading" secondItem="fOG-PZ-RDJ" secondAttribute="leadingMargin" constant="-20" id="aii-zw-PPX"/>
+                            <constraint firstItem="rxc-ld-vPb" firstAttribute="top" secondItem="jMj-zi-kVN" secondAttribute="bottom" constant="148" id="fDm-Zb-cyV"/>
+                            <constraint firstItem="ayh-E4-Fpy" firstAttribute="top" secondItem="m9U-Ew-v86" secondAttribute="bottom" id="g0m-rv-l7D"/>
+                            <constraint firstItem="As7-Gr-zdG" firstAttribute="top" secondItem="gaZ-ka-Rha" secondAttribute="bottom" constant="-20" id="h0k-gO-Vo4"/>
+                            <constraint firstItem="rxc-ld-vPb" firstAttribute="top" secondItem="aZZ-nj-3xx" secondAttribute="bottom" id="kBt-Fd-A32"/>
+                            <constraint firstItem="s8q-CY-YOx" firstAttribute="top" secondItem="gaZ-ka-Rha" secondAttribute="bottom" constant="8" id="nzF-tS-Or4"/>
+                            <constraint firstItem="oAO-Hu-m47" firstAttribute="top" secondItem="gaZ-ka-Rha" secondAttribute="bottom" constant="15" id="wMN-89-6rh"/>
+                            <constraint firstItem="rxc-ld-vPb" firstAttribute="top" secondItem="5iS-nC-zQp" secondAttribute="bottom" constant="248" id="xUN-SH-vsA"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="oAO-Hu-m47" secondAttribute="leading" constant="-17" id="yWo-ld-9eV"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="firstBottomContraint" destination="xUN-SH-vsA" id="pFF-1t-U4u"/>
+                        <outlet property="firstLineView" destination="5iS-nC-zQp" id="rJL-fl-M30"/>
+                        <outlet property="roundedButton" destination="H6X-hO-4U8" id="yN5-aB-FeX"/>
+                        <outlet property="secondBottomContraint" destination="fDm-Zb-cyV" id="oqh-OB-DnT"/>
+                        <outlet property="secondLineView" destination="jMj-zi-kVN" id="DRb-Cx-EWa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pED-D2-Vag" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2633" y="1252"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Cuisines" width="272" height="272"/>
+        <image name="Dragonfruit" width="345" height="345"/>
+        <image name="Fruits" width="345" height="345"/>
         <image name="Gradient" width="1024" height="768"/>
         <image name="KL Tower" width="1024" height="720"/>
         <image name="KLCC" width="1024" height="755"/>
+        <image name="Landmarks" width="342" height="342"/>
+        <image name="Mangosteen" width="345" height="345"/>
     </resources>
 </document>

@@ -39,18 +39,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzV-MS-8Ir">
-                                <rect key="frame" x="37" y="320" width="65" height="29"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
-                                <color key="textColor" red="0.96078431372549022" green="0.65098039215686276" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shape" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIv-ND-2O8">
-                                <rect key="frame" x="37" y="349" width="107" height="43"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
-                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -62,15 +50,11 @@
                             <constraint firstItem="ifZ-2v-rwC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="17" id="Nk8-8K-Epj"/>
                             <constraint firstItem="vU7-VB-Agi" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="P1Q-KH-s9p"/>
                             <constraint firstItem="wz1-B5-Kpf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="XxS-gT-7Rx"/>
-                            <constraint firstItem="gIv-ND-2O8" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="17" id="bXa-db-fwf"/>
                             <constraint firstItem="da3-6E-JjT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="cR5-ZC-Luo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wz1-B5-Kpf" secondAttribute="trailing" constant="-20" id="d14-Mj-Axr"/>
-                            <constraint firstItem="uzV-MS-8Ir" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="jY0-zA-saD"/>
-                            <constraint firstItem="uzV-MS-8Ir" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="17" id="o0g-pu-VVn"/>
                             <constraint firstItem="wz1-B5-Kpf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="o2d-br-Vff"/>
                             <constraint firstItem="vU7-VB-Agi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="rOy-d9-aQO"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="wz1-B5-Kpf" secondAttribute="bottom" constant="-18" id="tMh-5y-wrg"/>
-                            <constraint firstItem="gIv-ND-2O8" firstAttribute="top" secondItem="uzV-MS-8Ir" secondAttribute="bottom" id="u6p-yZ-y2o"/>
                             <constraint firstAttribute="trailingMargin" secondItem="da3-6E-JjT" secondAttribute="trailing" constant="-20" id="uoV-rn-mAb"/>
                             <constraint firstItem="hfn-I8-MdH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="17" id="x4Z-cI-iLv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vU7-VB-Agi" secondAttribute="trailing" constant="-20" id="yuu-eN-LU1"/>

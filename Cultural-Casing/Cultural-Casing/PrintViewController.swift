@@ -22,7 +22,7 @@ class PrintViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        newButton.alpha = 0
+//        newButton.alpha = 0
 
         // Do any additional setup after loading the view.
 //        UIView.animateWithDuration(5.0, animations: {

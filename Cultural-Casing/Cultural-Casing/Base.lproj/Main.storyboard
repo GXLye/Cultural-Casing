@@ -126,6 +126,18 @@
                                     <segue destination="AzT-OU-oC8" kind="presentation" animates="NO" modalTransitionStyle="crossDissolve" id="VBz-XC-A4y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXk-pu-flc">
+                                <rect key="frame" x="382" y="390" width="297" height="343"/>
+                                <connections>
+                                    <segue destination="fiA-0h-XSY" kind="presentation" animates="NO" id="SIJ-I3-yc6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhV-ab-VvB">
+                                <rect key="frame" x="710" y="390" width="297" height="343"/>
+                                <connections>
+                                    <segue destination="fiA-0h-XSY" kind="presentation" animates="NO" id="lX4-QN-Wd5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -315,6 +327,18 @@
                                     <action selector="buttonAnimation:" destination="AzT-OU-oC8" eventType="touchDown" id="uk3-cz-fvi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you know?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzX-gJ-kOy">
+                                <rect key="frame" x="191" y="316" width="170" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Durian is known as the King of Fruits; Mangosteen is the Queen of Fruits" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HO6-Kp-H6A">
+                                <rect key="frame" x="191" y="354" width="643" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.65098039220000004" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -1043,4 +1067,7 @@
         <image name="Landmarks" width="342" height="342"/>
         <image name="Mangosteen" width="345" height="345"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SIJ-I3-yc6"/>
+    </inferredMetricsTieBreakers>
 </document>
